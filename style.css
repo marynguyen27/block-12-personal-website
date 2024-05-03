@@ -19,12 +19,18 @@ header > h1 {
   font-family: 'Courier New', Courier, monospace;
   padding: 0 20px;
   text-align: center;
+  padding-top: 100px;
 }
 
 .menu {
   font-family: 'Courier New', Courier, monospace;
   display: inline;
   text-align: center;
+  position: fixed;
+  padding: 10px 0;
+  top: 0;
+  width: 100%;
+  padding-top: 0px;
 
   ul {
     list-style-type: none; /* Remove default list styles */
@@ -55,6 +61,7 @@ header > h1 {
   border: 2px solid #ff0000;
   font-family: 'Courier New', Courier, monospace;
   font-style: bold;
+  padding-top: 100px;
 }
 
 .imgsize {
@@ -67,6 +74,7 @@ header > h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: large;
   color: darkolivegreen;
+  padding-top: 200px;
 }
 .container {
   max-width: 800px;
@@ -76,6 +84,7 @@ header > h1 {
   justify-content: center;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 100px;
 }
 
 .fit-picture {
@@ -97,10 +106,9 @@ body {
   padding: 50px;
   display: flex;
   display: inline;
-}
-
-.content {
-  flex: 1;
+  top: 0;
+  width: 100%;
+  padding-top: 500px;
 }
 
 footer {
