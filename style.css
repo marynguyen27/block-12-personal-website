@@ -12,10 +12,11 @@
   font-size: xx-large;
   color: #ff00a6;
   text-shadow: #696666 2px 2px 0.2rem;
+  height: 50px;
 }
 
 header > h1 {
-  margin-bottom: 0;
+  margin-bottom: 10;
   font-family: 'Courier New', Courier, monospace;
   padding: 0 20px;
   text-align: center;
@@ -23,34 +24,36 @@ header > h1 {
 }
 
 .menu {
+  display: block;
+  width: fit-content;
   font-family: 'Courier New', Courier, monospace;
-  display: inline;
   text-align: center;
+  justify-content: center;
   position: fixed;
-  padding: 10px 0;
-  top: 0;
-  width: 100%;
-  padding-top: 0px;
+  height: 30px;
+  margin-top: 60px;
+  margin-left: auto; /* Center the navigation bar horizontally */
+  margin-right: auto; /* Center the navigation bar horizontally */
+}
 
-  ul {
-    list-style-type: none; /* Remove default list styles */
-    margin: 50px;
-    padding: 50px;
-  }
+ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 10px;
+  padding: 10px;
+}
 
-  li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add spacing between items */
-  }
+li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add spacing between items */
+}
 
-  a {
-    text-decoration: none; /* Remove underline from links */
-    color: rgb(77, 6, 230); /* Link color */
-  }
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(77, 6, 230); /* Link color */
+}
 
-  a:hover {
-    color: #ccc; /* Change link color on hover */
-  }
+a:hover {
+  color: #ccc; /* Change link color on hover */
 }
 
 .photo-text-block {
@@ -62,6 +65,7 @@ header > h1 {
   font-family: 'Courier New', Courier, monospace;
   font-style: bold;
   padding-top: 100px;
+  text-align: center;
 }
 
 .imgsize {
@@ -74,8 +78,15 @@ header > h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: large;
   color: darkolivegreen;
-  padding-top: 200px;
+  padding-top: 100px;
+  margin-top: 10px;
+  text-align: justify;
 }
+
+.body-container {
+  padding-top: 50px;
+}
+
 .container {
   max-width: 800px;
   margin: 10px auto;
@@ -101,17 +112,16 @@ header > h1 {
   font-style: italic;
 }
 
-body {
-  margin: 50px;
-  padding: 50px;
+.body {
   display: flex;
   display: inline;
   top: 0;
   width: 100%;
   padding-top: 500px;
+  margin-top: 500px;
 }
 
-footer {
+.footer {
   background-color: #333;
   color: white;
   padding: 20px;
