@@ -1,5 +1,8 @@
 # block-12-personal-website
 
+## Project Board
+https://github.com/orgs/personalsite2/projects/1/views/1
+
 ## Personal Website Part 2
 
 Welcome to my Personal Website! 
