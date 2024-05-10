@@ -132,4 +132,20 @@ a:hover {
 .contactformsubmission {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
+  font-size: larger;
+  text-align: center;
+  color: #ff00a6;
+  margin-top: 10vw;
+}
+
+.flexbox-div {
+  display: flex;
+  padding: 2%;
+  margin-top: 3vw;
+  width: 40vw;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  border: 5px solid #ff00a6;
+  background-color: lightgrey;
 }
