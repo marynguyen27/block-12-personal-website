@@ -1,6 +1,6 @@
-# block-09-personal-website
+# block-12-personal-website
 
-## Personal Website Part 1
+## Personal Website Part 2
 
 Welcome to my Personal Website! 
 
