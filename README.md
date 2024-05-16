@@ -1,19 +1,20 @@
 # block-12-personal-website
 
-## Project Board
+## Project Board - Partner Collaboration on a Project Plan
+
 https://github.com/orgs/personalsite2/projects/1/views/1
 
 ## Personal Website Part 2
 
-Welcome to my Personal Website! 
+Welcome to my Personal Website!
 
-## Description 
+## Description
 
-My personal website will show a little bit about me and my portfolio. 
+My personal website will show a little bit about me and my portfolio.
 
 ## Technologies Used
 
-HTML, CSS, and JavaScript. 
+HTML, CSS, and JavaScript.
 
 ## Contact
 
