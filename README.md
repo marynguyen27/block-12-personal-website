@@ -1,5 +1,7 @@
 # block-12-personal-website
 
+## Project linked on github repo.
+
 ## Project Board - Partner Collaboration on a Project Plan
 
 https://github.com/orgs/personalsite2/projects/1/views/1
